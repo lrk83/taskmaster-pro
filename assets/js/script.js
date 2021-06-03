@@ -91,7 +91,7 @@ $(".list-group").on("click","span",function() {
 
   var dateInput = $("<input>")
     .attr("type","text")
-    //.addClass("form-control")
+    .addClass("form-control")
     .val(date);
 
   $(this).replaceWith(dateInput);
